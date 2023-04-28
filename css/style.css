@@ -5,11 +5,13 @@
 
 .wrap {
     width: 100%;
-    max-width: 1025px;
+    max-width: 1024px;
     margin: 0 auto;
     background-color: #fafafa;
     font-family: "MicrosoftJhengHeiRegular";
 }
+
+
 
 .header {
     display: flex;
@@ -456,4 +458,150 @@
     font-weight: bold;
     font-size: 14px;
     color: #666;
+}
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        max-width: 100%;
+    }
+
+    .header {
+        display: block;
+    }
+
+    .header .nameAndIntroduce {
+        max-width: 768px;
+        display: block;
+        padding: 80px 0 24px 0;
+    }
+
+    .nameAndIntroduce img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 40px;
+    }
+
+    .nameAndIntroduce h1 {
+        font-size: 2.5rem;
+    }
+
+    .nameAndIntroduce p {
+        font-size: 24px;
+    }
+
+    .linkMenu {
+        margin: 0;
+        align-items: center;
+    }
+
+    .contentOfSkills {
+        margin-bottom: 30px;
+    }
+
+    .contentOfSkillsMenu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contentOfSkillsMenu {
+        padding: 0 24px;
+    }
+
+    .contentOfSkills h2 {
+        font-size: 32px;
+    }
+
+    .contentOfSkills h3 {
+        font-size: 24px;
+    }
+
+    .contentOfSkillsMenu>li {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .experience h2 {
+        font-size: 32px;
+    }
+
+
+    .courseLogoAreaOfSkills {
+        padding: 0;
+
+    }
+
+    .courseLogoAreaOfSkills li {
+        width: 26%;
+        margin: auto;
+        margin-bottom: 16px;
+        font-size: 18px;
+    }
+
+    .experience .experienceOfPinkIcon {
+        display: none;
+    }
+
+    .experience .item-1 {
+        width: 70%;
+        left: 12%;
+        top: 16%;
+        z-index: 3;
+    }
+
+    .experience .item-2 {
+        width: 70%;
+        left: 12%;
+        top: 45%;
+        z-index: 3;
+    }
+
+    .experience .item-3 {
+        width: 70%;
+        left: 12%;
+        top: 73%;
+        z-index: 3;
+    }
+
+    .workArea>h2 {
+        font-size: 32px;
+    }
+
+    .worksMenu li {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .worksMenu li h2 {
+        font-size: 24px;
+    }
+
+    .worksMenu li p {
+        font-size: 20px;
+    }
+
+    .worksMenu {
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutArea {
+        padding: 0 20px;
+    }
+
+    .aboutArea h2 {
+        font-size: 32px;
+    }
+
+    .aboutAreaOfselfPicture img {
+        max-width: 250px;
+        height: auto;
+        margin: 0;
+    }
+
+    .aboutAreaOfself p {
+        padding: 0 20px;
+    }
+
 }
