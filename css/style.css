@@ -427,6 +427,7 @@
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 30px;
+
 }
 
 .aboutArea .aboutAreaOfself {
@@ -436,7 +437,7 @@
 
 .aboutAreaOfselfPicture img {
     display: block;
-    width: 350px;
+    max-width: 250px;
     margin-left: 30px;
     border-radius: 7px;
     object-fit: cover;
@@ -521,11 +522,6 @@
         margin-bottom: 24px;
     }
 
-    .experience h2 {
-        font-size: 32px;
-    }
-
-
     .courseLogoAreaOfSkills {
         padding: 0;
 
@@ -536,6 +532,10 @@
         margin: auto;
         margin-bottom: 16px;
         font-size: 18px;
+    }
+
+    .experience h2 {
+        font-size: 32px;
     }
 
     .experience .experienceOfPinkIcon {
@@ -594,14 +594,58 @@
         font-size: 32px;
     }
 
+    .aboutAreaOfself p {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
     .aboutAreaOfselfPicture img {
-        max-width: 250px;
-        height: auto;
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .aboutArea .aboutAreaOfself {
+        display: block;
+    }
+
+    .aboutAreaOfselfPicture img {
+        margin: 0 auto;
+        max-width: 350px;
+        margin-bottom: 24px;
     }
 
     .aboutAreaOfself p {
-        padding: 0 20px;
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    .experience {
+        padding: 0;
+    }
+
+    .experience .item {
+        position: relative;
+        margin-top: 24px;
+    }
+
+    .verticalLine {
+        display: none;
+    }
+
+    .experienceOfGrayIcon img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .experience {
+        padding: 0;
+    }
+
+    .experience .item {
+        position: relative;
+        margin-top: 24px;
     }
 
 }
