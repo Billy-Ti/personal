@@ -8,16 +8,20 @@
     <title>Personal_Resume / 狄子翔 Billy-Ti</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <div class="wrap">
         <div class="header">
             <div class="nameAndIntroduce">
-                <img src="https://i.postimg.cc/nhZJsMdM/222-Object-Removal.jpg" alt="PersonalPictures">
-                <h1>狄子翔</h1>
-                <p>Billy Ti</p>
-                <p>聖約翰科技大學 - 資管系 ( 畢 )</p>
+                <img class="animate__animated animate__jackInTheBox"
+                    src="https://i.postimg.cc/nhZJsMdM/222-Object-Removal.jpg" alt="PersonalPictures">
+                <h1 class="animate__animated animate__jackInTheBox personalName">狄子翔</h1>
+                <p class="animate__animated animate__jackInTheBox">Billy Ti</p>
+                <p class="animate__animated animate__jackInTheBox">聖約翰科技大學 - 資管系 ( 畢 )</p>
             </div>
             <div class="personalLink">
                 <ul class="linkMenu">
@@ -28,10 +32,11 @@
                         <a target="_blank" title="HR請找我~" href="mailto:breanne.zulauf@gerson.tv">show81728@gmail.com</a>
                     </li>
                     <li>
-                        <a target="_blank" title="Github gogo~" href="https://github.com/Billy-Ti">
+                        <a class="github" target="_blank" title="Github gogo~" href="https://github.com/Billy-Ti">
                             <img src="https://i.postimg.cc/HszcFnhS/icon-github.png" alt="githubIcon">
                         </a>
-                        <a target="_blank" title="Github gogo~" href="https://github.com/Billy-Ti">Billy-Ti</a>
+                        <a class="github" target="_blank" title="Github gogo~"
+                            href="https://github.com/Billy-Ti">Billy-Ti</a>
                     </li>
 
                 </ul>
@@ -135,9 +140,10 @@
                             <img class="worksMenuInfo_item-1" src="https://i.postimg.cc/QMxhGjHh/logo-work-1.png"
                                 alt="logo-work-1">
                         </div>
-                        <h2>MultipageLayout</h2>
-                        <p>Tried multi-page web design, took about 14 hours</p>
                     </a>
+                    <h2 class="worksTitle">MultipageLayout</h2>
+                    <p class="worksContent">Tried multi-page web design, took about 14 hours</p>
+
                 </li>
 
                 <li>
@@ -145,18 +151,20 @@
                         <div class="worksMenuInfo item_2">
                             <img src="https://i.postimg.cc/90qLFFdp/logo-big.png" alt="logo-work-2">
                         </div>
-                        <h2>Flex typesetting exercise</h2>
-                        <p>Variety of practice</p>
                     </a>
+                    <h2 class="worksTitle">Flex typeSetting Exercise</h2>
+                    <p class="worksContent">Variety of practice</p>
+
                 </li>
                 <li>
                     <a target="_blank" href="https://billy-ti.github.io/latest_Psd/">
                         <div class="worksMenuInfo item_3">
                             <img src="https://i.postimg.cc/ydcfLZsd/logo-work-3.png" alt="logo-work-3">
                         </div>
-                        <h2>One-page layout</h2>
-                        <p>Elementary typesetting exercises</p>
                     </a>
+                    <h2 class="worksTitle">One-page Lsayout</h2>
+                    <p class="worksContent">Elementary typesetting exercises</p>
+
                 </li>
             </ul>
         </div>
@@ -183,10 +191,19 @@
                 </li>
             </ul>
         </div>
+
+
         <div class="footer">
             &copy; 2023 狄子翔. ALL RIGHTS RESERVED
         </div>
     </div>
+    <div class="backToTop">
+        <span class="material-symbols-outlined">
+            keyboard_arrow_uptop
+        </span>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/all.js"></script>
 </body>
 
 </html>

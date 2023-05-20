@@ -410,11 +410,13 @@
     font-weight: bold;
     padding: 5px 0 8px 10px;
     color: #000;
+    cursor: pointer;
 }
 
 .worksMenu p {
     padding: 0px 0 8px 12px;
     color: gray;
+    display: none;
 }
 
 .aboutArea {
@@ -459,6 +461,14 @@
     font-weight: bold;
     font-size: 14px;
     color: #666;
+}
+
+.backToTop {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 10;
 }
 
 @media screen and (max-width: 768px) {
