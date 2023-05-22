@@ -413,6 +413,12 @@
     cursor: pointer;
 }
 
+.backToTop .test {
+    background-color: #f2f2f2;
+    padding: 5px 0;
+    opacity: .3;
+}
+
 .worksMenu p {
     padding: 0px 0 8px 12px;
     color: gray;
